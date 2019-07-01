@@ -21,10 +21,12 @@ public class Candidato {
     private String cidade;
     private String estado;
     private String site;
+    private String curso;
      
     
         //INSTANCIACAO
-        public Candidato(String senha, Long id, String nome, String email, String telefone, String celular, String endereco, String bairro, String cidade, String estado, String site){
+        public Candidato(String senha, Long id, String nome, String email, String telefone, 
+                String celular, String endereco, String bairro, String cidade, String estado, String site, String curso){
             
             this.codigo = id;
             this.nome = nome;
@@ -37,18 +39,20 @@ public class Candidato {
             this.cidade = cidade;
             this.estado = estado;        
             this.site = site;
+            this.curso = curso;
         }
-            public Candidato(String senha, String nome, String email, String telefone, String celular, String endereco, String bairro, String cidade, String estado, String site){
-            this.senha = senha;
-            this.nome = nome;
-            this.email = email;
-            this.telefone = telefone;
-            this.celular = celular;
-            this.endereco = endereco;
-            this.bairro = bairro;
-            this.cidade = cidade;
-            this.estado = estado;        
-            this.site = site;
+            public Candidato(){
+            this.senha = "";
+            this.nome = "";
+            this.email = "";
+            this.telefone = "";
+            this.celular = "";
+            this.endereco = "";
+            this.bairro = "";
+            this.cidade = "";
+            this.estado = "";        
+            this.site = "";
+            this.curso = "";
         }
     
 
@@ -139,4 +143,10 @@ public class Candidato {
         public void setBairro(String bairro){
             this.bairro = bairro;
         }
+
+        public String getCurso() {
+            return this.curso;
+        }
+        
+        
 }
