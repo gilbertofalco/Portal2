@@ -20,6 +20,6 @@ public class CandidatoDao {
     }
     
     public boolean add(Candidato a){
-        String
-    }
-}
+        String sql = "INSERT INTO pessoa(id, nome, senha, email, telefone, celular,"
+                + " endereco, bairro, cidade, estado, site, curso)"
+                + "
