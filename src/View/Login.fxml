@@ -10,6 +10,6 @@
       <TextField fx:id="txtLogin" layoutX="225.0" layoutY="263.0" prefHeight="26.0" prefWidth="190.0" promptText="Login" />
       <PasswordField fx:id="txtSenha" layoutX="225.0" layoutY="297.0" prefHeight="26.0" prefWidth="190.0" promptText="Senha" />
       <Button fx:id="btnEntrar" layoutX="331.0" layoutY="337.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="83.0" text="Entrar" />
-      <Button fx:id="btnCancelar" layoutX="225.0" layoutY="337.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="89.0" text="Sair" />
+      <Button fx:id="btnCancelar" layoutX="225.0" layoutY="337.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="89.0" text="Cancelar" />
    </children>
 </AnchorPane>
