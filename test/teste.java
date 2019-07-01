@@ -20,6 +20,16 @@ public class teste {
        Candidato c = new Candidato();
         c.setNome("Rafael");
         c.setCidade("Cornélio");
+        c.setSenha("123456");
+        c.setCodigo("a98765");
+        c.setCidade("gsdgdf");
+        c.setEstado("SP");
+        c.setTelefone("1515161");
+        c.setCelular("123456");
+        c.setBairro("santa maria");
+        c.setSite("www.vfdvd.com.br");
+        
+        
     
        
         CandidatoDao dao = new CandidatoDao();

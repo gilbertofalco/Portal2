@@ -11,7 +11,7 @@ package Model;
  */
 public class Candidato {
     private String senha;
-    private Long codigo;
+    private String codigo;
     private String nome;
     private String email;
     private String telefone;
@@ -25,7 +25,7 @@ public class Candidato {
      
     
         //INSTANCIACAO
-        public Candidato(String senha, Long id, String nome, String email, String telefone, 
+        public Candidato(String senha, String id, String nome, String email, String telefone, 
                 String celular, String endereco, String bairro, String cidade, String estado, String site, String curso){
             
             this.codigo = id;
@@ -42,6 +42,7 @@ public class Candidato {
             this.curso = curso;
         }
             public Candidato(){
+            this.codigo = "";
             this.senha = "";
             this.nome = "";
             this.email = "";
@@ -66,10 +67,10 @@ public class Candidato {
             this.senha = senha;
         }
             //Codigo
-        public Long getCodigo(){
+        public String getCodigo(){
             return this.codigo;
         }
-        public void setCodigo(Long codigo){
+        public void setCodigo(String codigo){
             this.codigo = codigo;
         }
         
